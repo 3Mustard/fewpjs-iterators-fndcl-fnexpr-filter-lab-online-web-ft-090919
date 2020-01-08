@@ -7,5 +7,5 @@
  }
  
  function fuzzyMatch(drivers,stringArg){
-   return drivers.filter(driver => driver[0] === stringArg);
+   return drivers.filter(driver => driver[0] === stringArg.toUpperCase());
  }
